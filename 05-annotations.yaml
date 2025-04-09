@@ -9,6 +9,6 @@ metadata:
     kubernetes.io/created-by: 'Avinash'
     jenkins.build.url: 'https://jenkins.daws78s.online/expense/job/backend/54'
 spec:
-  conatiners:
+  containers:
   - name: nginx
     image: nginx
