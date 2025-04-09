@@ -19,4 +19,4 @@ spec:
     #       key: trainer
     envFrom:
     - configMapRef:
-      name: config-file
+        name: config-file
