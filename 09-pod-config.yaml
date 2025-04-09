@@ -16,4 +16,4 @@ spec:
       valueFrom:
         configMapKeyRef:
           name: config-file
-          key: course
+          key: trainer
