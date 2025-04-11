@@ -1,9 +1,9 @@
-apiVersion: apps/v1
 kind: ReplicaSet
+apiVersion: apps/v1
 metadata:
   name: nginx
   # these labels belongs to replicaset resource
-  lables:
+  labels:
     app: nginx
     tier: web
 spec:
