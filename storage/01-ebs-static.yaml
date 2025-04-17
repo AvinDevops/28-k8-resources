@@ -12,16 +12,16 @@ spec:
     fsType: ext4
     volumeHandle: vol-09061d58f2710893d
 ---
-# apiVersion: v1
-# kind: PersistentVolumeClaim
-# metadata:
-#   name: ebs-static
-# spec:
-#   storageClassName: ""
-#   volumeName: ebs-static
-#   accessModes:
-#   - ReadWriteOnce
-#   resources:
-#     requests:
-#       storage: 5Gi
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: ebs-static
+spec:
+  storageClassName: ""
+  volumeName: ebs-static
+  accessModes:
+  - ReadWriteOnce
+  resources:
+    requests:
+      storage: 5Gi
 ---
